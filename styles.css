@@ -1,0 +1,468 @@
+html {
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    padding-top: 90px;
+    margin: 0;
+    background-color: rgb(159, 114, 114);
+    min-width: 1024px;
+}
+
+section {
+    scroll-margin-top: 120px;
+    /* same as navbar height */
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navItem a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+
+.card1a {
+    margin-top: 20px;
+    width: 90%;
+    height: 500px;
+    background-color: blanchedalmond;
+    border-radius: 40px;
+    align-content: center;
+}
+
+.card1a h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.card1a p {
+    margin-top: -30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card1a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.card1b {
+  position: absolute;
+  bottom: 0;
+  left: o;
+  display:flex;
+  gap :5px;
+  padding:10px;
+}
+
+.card1b img{
+  width:40px;
+  height:40px;
+  object-fit: contain;
+}
+
+.card1a img{
+
+    width:auto;
+    float: right;
+    height: 200px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 50px;
+    width: 90%;
+    height: 500px;
+}
+
+.card2a {
+    width: 50%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card2 h1,
+.card4a h1,
+.card4b h1,
+.card5 h1 {
+    font-size: 38px;
+}
+
+.card2a .p,
+.card4a p,
+.card4b p {
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+.card2a a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card2b {
+    width: 50%;
+}
+.card2b img {
+  height: 300px;
+
+}
+
+
+.card3 {
+    margin-top: -50px;
+}
+
+.card3 .p {
+    margin-top: -10px;
+}
+
+.card3 p,
+.card5 p {
+    font-size: 18px;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 90%;
+
+}
+
+.card4a,
+.card4b {
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+.card4a {
+    width: 40%;
+    border-radius: 20px;
+    text-align: left;
+    background-color: blanchedalmond;
+}
+
+.card4b {
+    width: 40%;
+    text-align: left;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+
+.card4a a,
+.card4b a,
+.card5 a {
+    text-decoration: none;
+    color: white;
+    border: 2px;
+    margin-top: 10px;
+    background-color: black;
+    border-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card5 {
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.card5 h1,
+.card5 p,
+.card5 a {
+    margin-left: 70px;
+}
+.card5 img{
+    height: 250px;
+    float: right;
+    width: auto;
+}
+.button {
+    font-size: 20px;
+    display: flex;
+}
+
+.card6 {
+    width: 90%;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px;
+
+    display: flex;
+
+}
+
+.card6a {
+    width: 40%;
+    text-align: left;
+}
+
+.card6b {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.test {
+    text-align: left;
+    padding: 10px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.test1 {
+    background-color: blanchedalmond;
+}
+
+.test2 {
+    color: white;
+    background-color: black;
+}
+
+.card7 {
+    width: 90%;
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.partnerspic {
+    width: 40%;
+}
+
+.card8 {
+    margin-top: 100px;
+}
+
+.card9 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card9 div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.card9 a,
+.card10 a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card9a a {
+    background-color: orange;
+}
+
+.card9b a {
+    background-color: green;
+}
+
+.card9c a {
+    background-color: palevioletred;
+}
+
+.card10 a {
+    background-color: black;
+    margin: 20px;
+}
+
+.card10 {
+    text-align: left;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 1rem;
+    margin-top: 40px;
+    
+
+}
+
+.card10pic{
+
+    height:200px;
+    float:right
+     
+}
+
+.card11 {
+    margin-top: 80px;
+    width: 90%;
+    text-align: left;
+}
+
+.card11 img {
+    height: 250px;
+}
+
+.card11b {
+    display: flex;
+}
+
+.faq-container {
+    max-width: 600px;
+    width: 100%;
+}
+
+details {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+summary {
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: '+';
+    float: right;
+    font-size: 1.2rem;
+}
+
+details[open] summary::after {
+    content: '-';
+}
+
+.faq-content {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.con {
+    width: 90%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: left;
+}
+
+.social-icons img{
+    height: 50px;
+    width:50px;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+form input {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    text-align: left;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.footerCard1 {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+    width: 40%;
+}
+
+.footerItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCard2 {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    width: 40%
+}
